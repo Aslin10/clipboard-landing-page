@@ -1,0 +1,339 @@
+/* ### Primary */
+
+/* - Strong Cyan: hsl(171, 66%, 44%) */
+/* - Light Blue: hsl(233, 100%, 69%) */
+
+/* ### Neutral */
+
+/* - Dark Grayish Blue: hsl(210, 10%, 33%) */
+/* - Grayish Blue: hsl(201, 11%, 66%) */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+     text-align: center;
+     line-height: 1.8; 
+
+}
+.container{
+    width: 100%;
+    height: auto;
+   
+    
+}
+.logo {
+   margin-top: 20px;
+   
+   padding: 20px;
+   
+}
+.logo svg{
+    
+    width: 100px;
+    height: 100px;
+}
+.content-holder,.clipboard{
+    width:60%;
+    margin:10px auto;
+
+
+}
+.content-holder h2,.clipboard h2{
+    font-weight: 600;
+    text-align: center;
+    
+
+}
+.content-holder p,.clipboard p{
+    color: hsl(201, 11%, 66%);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+.content-holder .ios,.mac{
+    padding:10px 20px;
+width:70%;
+    border-radius: 23px;
+    display: block;
+    margin: 15px auto;
+    color:#fff;
+    border-style: none;
+    cursor: pointer;
+
+
+}
+.clipboard .ios,.mac{
+    padding:10px 20px;
+width:70%;
+    border-radius: 23px;
+    display: block;
+    margin: 15px auto;
+    color:#fff;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+
+
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%) ;
+}
+.mac{
+    background-color: hsl(233, 100%, 69%) ;
+}
+.ios:hover{
+    box-shadow: 0px 0px 6px 3px hsla(171, 65%, 60%, 0.5) ;
+}
+.mac:hover{
+    box-shadow: 0px 0px 6px 3px  hsl(233, 100%, 69%,0.5) ;
+}
+.snippets,.Access-clipboard,.supercharge {
+    
+    padding: 10px;
+    width:67%;
+    margin: 0px auto;
+}
+.snippets h3,.Access-clipboard h3,.supercharge h3{
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.snippets p ,.Access-clipboard p,.supercharge p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%) ;
+    margin-bottom: 20px;
+}
+Main{
+    display: flex;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    gap: 50px;
+    
+}
+.data div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px;
+
+   
+}
+
+.company-logo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.company-logo img{
+    width: 60px;
+    height:18px;
+    margin:30px 70px;
+    
+}
+.content{
+    width:500px;
+    text-align: left;
+}
+.content h4{
+    
+    font-weight: 600;
+    padding: 5px;
+
+}
+.content p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%) ;
+    padding:10px;
+} 
+.computer img{
+    width:500px;
+    height:350px; 
+}
+.device img{
+width:65%;
+height:350px;
+}
+
+.blacklist h4,.text h4,.preview h4{
+    font-weight: 600;
+    margin-bottom: 15px;
+    
+    
+
+}
+.blacklist p,.text p,.preview p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%) ;
+    margin-bottom: 30px;
+    
+    
+}
+.blacklist img,.text img,.preview img{
+    
+    width:40px;
+    height:30px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color:hsl(201, 11%, 66%,0.1);
+padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo_img svg{
+    width:50px;
+    height: 50px;
+    margin-left: 70px;
+    
+}
+.link_1 a,.link_2 a,.link_3 a{
+    display: block;
+    text-decoration: none;
+    
+    text-align: left; 
+    font-size: 14px; 
+    margin-bottom: 10px; 
+    padding: 0px 10px; 
+    color:black;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+.link_1 a:hover,.link_2 a:hover,.link_3 a:hover{
+    color:hsl(171, 66%, 44%)  ;
+}
+ 
+
+
+.icons a svg{
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: fill 0.3s ease;
+    fill:#4C545C;
+    }
+    .icons a:hover svg{
+        fill:hsl(171, 66%, 44%) ;
+    }
+
+    
+
+
+
+@media (min-width:550px){
+    .content-holder .btn{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        gap:10px;
+    }
+    .clipboard .btn{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        gap:10px;
+    }
+    .data{
+        width: 100%;
+        
+    
+    }
+    .data div {
+        display: inline-block;
+        
+        width:380px;
+        
+        
+    
+        
+        
+    }
+    .blacklist {
+       line-height: 1.3;
+    
+    }
+   
+    
+    
+}
+@media (max-width:550px) {
+    footer{
+        background-color:hsl(201, 11%, 66%,0.1);
+       display: flex;
+        flex-direction: column;
+
+    
+       
+        
+    }
+
+
+    .link_1 a,.link_2 a,.link_3 a{
+    margin: 0 ;
+    padding: 8px;
+    text-align: center;
+
+    }
+    .logo_img svg{
+        margin: 0 auto;
+        padding: 4px;
+        
+    }
+    .icons a svg{
+        margin: 5px auto;
+        padding: 4px;
+        
+
+    }
+   
+    Main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .computer img{
+        width:350px;
+        height:350px; 
+    }
+    .content{
+        width:350px;
+        text-align: center;
+    }
+    .company-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    }
+    .company-logo img{
+        width:60px;
+        height:20px;
+        text-align: center;
+        
+    }
+    
+
+}
